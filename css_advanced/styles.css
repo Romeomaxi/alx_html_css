@@ -122,7 +122,7 @@ h1{
 }
 .quote1 blockquote{
     font-size: 22px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .quote1 br{
     margin-right:;
@@ -133,7 +133,7 @@ h1{
 }
 .video{
     margin-top: 314px;
-    height: 80%;
+    height: 70vh;
     background-color: white;
     position: relative;
     text-align: center;
@@ -142,7 +142,7 @@ h1{
 }
 .video h3{
     font-size:23px;
-    margin-top: 30px;
+    margin-bottom: 2px;
 }
 .video strong{
     color: #e649fd;
@@ -150,5 +150,74 @@ h1{
 .video1{
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 110px;
+}
+.vauthor img{
+    float:left;
+    margin-left:60px;
+    width: 50px;
+    height: 40px;
+}
+.vauthor h5{
+    float: left;
+    font-size: 11px;
+    color: #e649fd;
+}
+
+.vrating img{
+    float: left;
+    margin-right: 166px;
+    width: 60px;
+    height: 10px;
+}
+.vrating p{
+    float: right;
+    margin-right: 35px;
+    font-size: x-small;
+}
+.mb{
+    background-color: #0e0a36;
+    position: relative;
+    height: 50vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.blockM{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.mb h3{
+    display: flex;
+    justify-content: center;
+}
+.mb button{
+    display: flex;
+    justify-content: center;
+}
+.faqb{
+    position: relative;
+    background-color: white;
+    color: black;
+}
+.faqb h3{
+    display: flex;
+    justify-content: center;
+}
+.faqb1 {
+    display: flex;
+}
+.faqb2{
+    display: flex;
+}
+.footer{
+    position: relative;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    display: flex;
 }
