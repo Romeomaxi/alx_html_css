@@ -132,7 +132,7 @@ h1{
     margin-bottom: 40px;   
 }
 .video{
-    margin-top: 314px;
+    margin-top: 309px;
     height: 70vh;
     background-color: white;
     position: relative;
@@ -142,7 +142,7 @@ h1{
 }
 .video h3{
     font-size:23px;
-    margin-bottom: 2px;
+    margin-bottom:;
 }
 .video strong{
     color: #e649fd;
@@ -183,18 +183,39 @@ h1{
     align-items: center;
     justify-content: center;
 }
+.mb h3{
+    display: flex;
+    color: #e649fd;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 .blockM{
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
+    align-items: center;
 }
-.mb h3{
-    display: flex;
-    justify-content: center;
+.fmblock{
+    height: 10vh;
+    width: 30vh;
+    text-align: center;
+    align-items: center;
+    
 }
-.mb button{
-    display: flex;
+.rg{
+    margin-top: 100px;
+    background-color: #e649fd;
+    border-style: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.8em;
+    float: left;
     justify-content: center;
+    margin-left: 670px;
 }
 .faqb{
     position: relative;
@@ -204,20 +225,75 @@ h1{
 .faqb h3{
     display: flex;
     justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
 }
 .faqb1 {
+    float: center;
     display: flex;
+    height: 20vh;
+    width: 100%;
+    margin-left: 350px;
+}
+.faqb1a{
+    float: center;
+    width: 60vh;
+}
+.faqb1b{
+    float: left;
+    width: 60vh;
+    margin-left: 30px;
 }
 .faqb2{
     display: flex;
+    margin-left: 350px;
+}
+.faqb2a{
+    float: center;
+    width: 60vh;
+    height: 25vh
+}
+.faqb2b{
+    float:;
+    width: 60vh;
+    margin-left: 30px;
 }
 .footer{
     position: relative;
-    background-color: black;
+    background-color: #0D1B2A;
     color: white;
-    align-items: center;
-    justify-content: center;
+    height: 20vh;
 }
-.footer p{
+.fcontent{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.flog{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.flog img{
+    margin-right: 30px;
+}
+.fsocial{
+    display: flex;
+    gap: 15px;
+    margin-right: 40px;
+}
+.fsocial a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1.5em;
+}
+.fbottom{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8em;
+    color: #a9a9a9;
 }
