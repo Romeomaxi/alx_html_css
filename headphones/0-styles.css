@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: url(images/headphones_hero_1.jpg) no-repeat center center/cover;
+    height: 100%;
+    color: white;
+}
+.header {
+    margin-top:;
+    width: 80%;
+    background:;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.content{
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.text{
+    height: auto;
+    width: 90vh;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.logo img{
+    width:50%;
+    height:90%;
+}
+.nav-links{
+    margin-top:25px;
+}
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color:white;
+    font-style:bookman old style;
+    font-size: small;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    color: #FF6565;
+}
+
+.section {
+    margin-top: 300px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 0.9em;
+    color:white;
+}
+
+.button {
+    margin-top:;
+    text-align: center;
+    padding: 12px 23px;
+    background:#f94b4b;
+    color: #fff;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.button:hover{
+    opacity: 0.9;
+}
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img{
+        width:80%;
+        height:90%;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    a:hover{
+        color: #FF6565;
+    }
+    .section {
+        text-align: center;
+        padding: 10px;
+        margin-top: 200px;
+    }
+    .title{
+        font-size: 1.2em;
+    margin-bottom: 10px;
+    }
+    .sub-title {
+        font-size: 0.8em;
+        color:white;
+    }
+    .content{
+        padding: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text{
+        height: auto;
+        width: auto;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
