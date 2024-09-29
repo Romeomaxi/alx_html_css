@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.laure{
+    display: flex;
+    flex-direction: column;
+    width:;
+    background: url(images/headphones_hero_1.jpg) no-repeat center center/cover;
+    height:;
+    color: white;
+    align-items:;
+}
+.header {
+    width: 90%;
+    background:;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+.logo {
+    margin-left:40px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.logo img{
+    width:50%;
+    height:90%;
+}
+.nav-links{
+    margin-top:25px;
+}
+.nav-links a {
+    margin:12px;
+    text-decoration: none;
+    color:white;
+    font-size: small;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    color: #FF6565;
+}
+.section {
+    margin-top: 250px;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 0.9em;
+    color:white;
+}
+
+.button {
+    margin-top:;
+    text-align: center;
+    padding: 12px 23px;
+    background:#f94b4b;
+    color: #fff;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.button:hover{
+    opacity: 0.9;
+}
+.content{
+    display: flex;
+    padding:40px;
+    text-align: center;
+    justify-content: right;
+    margin-top: 20px;
+    width:;
+}
+.text{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.what{
+    margin-top:;
+    padding: 20px 50px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.wtext{
+    margin-top: 20px;
+    justify-content: center;
+}
+.wsub{
+    margin-top: 40px;
+    font-weight:;
+    height: auto;
+    width: auto;
+    margin-right: 30px;
+}
+.icons{
+    margin: 2px;
+    display: flex;
+    color:whitesmoke
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.holberton_school-icon-ic_music{
+    color:#f94b4b;
+    font-size: 80px;
+}
+.holberton_school-icon-ic_hearing{
+    color:#f94b4b;
+    font-size: 80px;
+    
+}
+.holberton_school-icon-ic_video{
+    color:#f94b4b;
+    font-size: 80px;
+}
+.holberton_school-icon-ic_sound{
+    color:#f94b4b;
+    font-size: 80px;
+}
+.grid{
+    margin-left:250px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:10px;
+    align-items: center;
+    width:60%;
+    text-align: center;
+}
+.grid-item{
+    margin:6px;
+}
+.grid-item p{
+    font-size: small;
+}
+.grid-item img{
+    width: 50%;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+.res{
+    margin-top: 30px;
+    color: white;
+    background: url(images/headphones_hero_2.jpg) no-repeat center center/cover;
+    height: auto;
+}
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img{
+        width:80%;
+        height:90%;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    a:hover{
+        color: #FF6565;
+    }
+    .section {
+        text-align: center;
+        padding: 10px;
+        margin-top: 200px;
+    }
+    .title{
+        font-size: 1.2em;
+    margin-bottom: 10px;
+    }
+    .sub-title {
+        font-size: 0.8em;
+        color:white;
+    }
+    .content{
+        padding: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text{
+        height: auto;
+        width: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .grid{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-left: auto;
+        align-items: center;
+        height:80%;
+        width: auto;
+        padding: 20px 100px;
+    }
+    
+}
